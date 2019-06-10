@@ -1,3 +1,5 @@
+mkdir -p ./ocr-pdfs
+
 for file in ./raw-pdfs/*
 do
     pathIn="$(basename $file)"
